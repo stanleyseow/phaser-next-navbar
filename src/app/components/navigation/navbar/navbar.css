@@ -1,0 +1,22 @@
+/* ============== navbar =============================== */
+.nav-link{
+    padding: 5px;
+    margin: 0 2px;
+    border-radius: 15px;
+}
+
+.purple-navbar {
+    background-color: #6f42c1; /* Replace with your desired purple color */
+}
+
+.active-nav,
+.active-nav:active,
+.active-nav:focus{
+    background: purple;
+    color: white;
+}
+.nav-link:hover {
+    background: purple;
+    color: white;
+    transition: ease 3s linear;
+}
